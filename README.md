@@ -24,7 +24,7 @@ components/SendMessage : form 태그를 출력하고 버튼 클릭 시 db에 메
 ```
 ## Before start
 ```
-! 자신 고유의 firebase 앱의 키 및 식별자가 포함된 Firebase 구성 객체가 필요합니다.!!
+!! 자신 고유의 firebase 앱의 키 및 식별자가 포함된 Firebase 구성 객체가 필요합니다.!!
 개인의 firebase project를 생성하셔서 복사 후 firechat/component/firebase.js config
 변수에 붙여 넣으셔야 합니다
 ex) 
@@ -39,8 +39,7 @@ measurementId: "xxx"
 ## Getting Started
 ```
 git clone https://github.com/seongwonme/React-Chat-App-with-Firebase.git
-cd firechat
-
+cd React-Chat-App-with-Firebase
 ```
 
 ### Installing
@@ -49,13 +48,13 @@ cd firechat
 Run the following commands into the project folder to install project dependencies.
 
 ```
-npm init
 npm install
 ```
 
 ## Built With
 
 * [ReactJS](https://reactjs.org/)
+* [EmotionJS](https://emotion.sh/docs/introduction)
 
 ## Author(s)
 
