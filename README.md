@@ -14,14 +14,14 @@ React, Emotion, Firebase 를 이용하여 작업하고 배포하였습니다. ht
 6. 로그인 되었는지 확인하는 함수를 componentDidMount 함수를 사용하여 컴포넌트 생성 시 한 번만 호출하여 실시간으로 계속 호출되는 오류를 해결하였습니다.
 
 ## 컴포넌트 요약
-
+```
 App : 로그인 정보를 받아와 로그인 되어있다면 Chat 화면을 아니라면 로그인 화면을 뿌려줍디다. 
 firebase : firebase 연동을 위한 설정 정보들이 들어있습니다. DB, 권한 객체를 export 합니다.
 components/SignIn : 구글 로그인을 제공합니다. 
 components/SignOut : 이 Component를 사용하시면 로그아웃 버튼이 나타납니다.
 components/Chat : firebase db 목록을 불러와 메시지로 가공해 화면에 표시해 줍니다.
 components/SendMessage : form 태그를 출력하고 버튼 클릭 시 db에 메시지를 추가합니다.
-
+```
 ## Before start
 ```
 ! 자신 고유의 firebase 앱의 키 및 식별자가 포함된 Firebase 구성 객체가 필요합니다.!!
