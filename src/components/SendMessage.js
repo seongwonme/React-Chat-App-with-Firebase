@@ -32,15 +32,10 @@ const submit_btn = css`
     min-height: 50px;
     background-color: #0b8879;
     color: white;    
-    padding-left: 3.5px;
-    padding-bottom: 2px;
-    margin: 8px 0px;
     border: none;
+    padding: 1px 0px 0px 4px;    
     border-radius: 50%;
     cursor: pointer;        
-    display: flex;
-    justify-content: center;
-    align-items: center;  
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;  
 `
 
@@ -73,7 +68,7 @@ export default class SendMessage extends PureComponent {
                     placeholder="Type a message"
                     css={input_tag}
                 />
-                <button type="submit" css={submit_btn}>▶</button>
+                <button type="submit" css={submit_btn}><i class="fas fa-caret-right"></i></button>
             </form>
         );
     }

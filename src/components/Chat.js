@@ -36,7 +36,7 @@ const send_msg = css`
     }
 
     .text-div {        
-        margin: 0px 14px;  
+        margin: 0px 11px;  
         word-break: break-all;
         background-color: #e3f9c8;        
         padding: 10px 14px 7px 14px;
