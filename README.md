@@ -55,6 +55,7 @@ npm install
 
 * [ReactJS](https://reactjs.org/)
 * [EmotionJS](https://emotion.sh/docs/introduction)
+* [Firebase](https://firebase.google.com/?hl=ko)
 
 ## Author(s)
 
