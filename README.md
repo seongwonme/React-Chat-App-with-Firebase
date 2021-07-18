@@ -1,5 +1,5 @@
 # Firechat
-React, Emotion, Firebase 를 이용하여 작업하고 배포하였습니다. https://firechat-3c705.web.app/
+실시간 채팅앱입니다. React, Emotion, Firebase 를 이용하여 작업하고 배포하였습니다. https://firechat-3c705.web.app/
 
 **![chat app](https://user-images.githubusercontent.com/62098910/126043796-a6b7c29d-c56c-48fd-a997-3c67759c9355.png)**  
 
