@@ -22,7 +22,7 @@ components/SignOut : 이 Component를 사용하시면 로그아웃 버튼이 나
 components/Chat : firebase db 목록을 불러와 메시지로 가공해 화면에 표시해 줍니다.
 components/SendMessage : form 태그를 출력하고 버튼 클릭 시 db에 메시지를 추가합니다.
 ```
-## Before start
+## Before Start
 ```
 !! 자신 고유의 firebase 앱의 키 및 식별자가 포함된 Firebase 구성 객체가 필요합니다.!!
 개인의 firebase project를 생성하셔서 복사 후 firechat/component/firebase.js config
