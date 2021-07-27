@@ -15,7 +15,7 @@
 
 ## 컴포넌트 요약
 ```
-App : 로그인 정보를 받아와 로그인 되어있다면 Chat 화면을 아니라면 로그인 화면을 뿌려줍디다. 
+App : 로그인 정보를 받아와 로그인 되어있다면 Chat 화면을 아니라면 로그인 화면을 출력합니다. 
 firebase : firebase 연동을 위한 설정 정보들이 들어있습니다. DB, 권한 객체를 export 합니다.
 components/SignIn : 구글 로그인을 제공합니다. 
 components/SignOut : 이 Component를 사용하시면 로그아웃 버튼이 나타납니다.
